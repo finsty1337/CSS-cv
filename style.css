@@ -1,0 +1,98 @@
+body {
+  background-color: #f5deb3;
+  color: #2f4f4f;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.avatar {
+  border-radius: 15%;
+  box-shadow: 9px 13px 30px 2px;
+}
+.info p {
+  color: #2f4f4f;
+  margin: 0px;
+  font-style: italic;
+}
+/* Box model */
+.social {
+  background-color: #afaf036e;
+  border-radius: 14px;
+  padding-left: 10px;
+  border: solid #2f4f4f 2px;
+  margin: 30px 8px;
+  padding-bottom: 9px;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.Opit {
+  background-color: #a52a2a85;
+  border-radius: 14px;
+  padding-left: 10px;
+  border: solid #2f4f4f 2px;
+  margin: 30px 8px;
+  padding: 10px;
+}
+.table {
+  width: 100%;
+}
+a {
+  color: #006400;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #2f4f4f;
+}
+a:visited {
+  color: #2e8b57;
+}
+.me {
+  background-color: #4c00827f;
+  border-radius: 14px;
+  padding-left: 10px;
+  border: solid #2f4f4f 2px;
+  margin: 30px 8px;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.contact h2 {
+  text-align: center;
+}
+.lab1 label {
+  display: block;
+}
+.lab1 {
+  word-spacing: 2px;
+  color: #008b8b;
+}
+.lab1 input,
+.lab1 textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+
+  border-bottom: 1px solid #676363;
+  color: #000;
+  padding: 15px 0 15px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+.btn {
+  background: #4c00827f;
+  color: #2f4f4f;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
